@@ -26,5 +26,13 @@ public class Program {
         contaCorrente.depositar(523);
         System.out.println("Juros: "+contaCorrente.calculaJuros());
         System.out.println("Emprestimo: " +contaCorrente.calculaValorEmprestimo());
+
+
+
+        //deposintando 5000 na conta corrente
+        contaCorrente.depositar(5000);
+        System.out.println("Juros: "+contaCorrente.calculaJuros());
+        System.out.println("Emprestimo: " +contaCorrente.calculaValorEmprestimo());
+
     }
 }
